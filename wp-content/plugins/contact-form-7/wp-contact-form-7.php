@@ -10,7 +10,6 @@ Domain Path: /languages/
 Version: 5.5.6
 */
 
-
 define( 'WPCF7_VERSION', '5.5.6' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '5.7' );
