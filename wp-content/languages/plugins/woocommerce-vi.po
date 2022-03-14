@@ -2375,11 +2375,11 @@ msgstr "WooCommerce Customer Orders"
 msgid "Order Cancelled: #{order_number}"
 msgstr "Đơn hàng đã hủy: #{order_number}"
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:571
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:562
 msgid "Updating review failed."
 msgstr "Cập nhật đánh giá thất bại."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:549
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:540
 msgid "Updating review status failed."
 msgstr "Cập nhật trạng thái đánh giá thất bại."
 
@@ -2399,16 +2399,16 @@ msgstr "Hóa đơn mới nhất ở {site_title}"
 msgid "Invoice for order #{order_number} on {site_title}"
 msgstr "Hóa đơn cho đơn hàng số #{order_number} tại {site_title}"
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:854
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:845
 msgid "Status of the review."
 msgstr "Trạng thái đánh giá"
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1043
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1034
 msgid "Invalid review ID."
 msgstr "ID đánh giá không hợp lệ."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:394
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:557
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:385
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:548
 msgid "Invalid review content."
 msgstr "Nội dung đánh giá không hợp lệ."
 
@@ -2441,12 +2441,12 @@ msgstr "Khách hàng chưa thanh toán"
 msgid "Amount of customers."
 msgstr "Số lượng khách hàng"
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:530
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:521
 msgid "Sorry, you are not allowed to change the comment type."
 msgstr "Rất tiếc, bạn không được phép thay đổi kiểu bình luận."
 
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:419
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:565
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:410
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:556
 msgid "Product review field exceeds maximum length allowed."
 msgstr "Phần nhận xét sản phẩm đã đạt ngưỡng ký tự tối đa được cho phép."
 
@@ -2518,8 +2518,8 @@ msgstr "Chúng tôi đã tạo 2 Vùng Vận Chuyển - cho %s và cho vùng cò
 msgid "WooCommerce Services icon"
 msgstr "Biểu tượng WooCommerce Services"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:521
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:692
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:524
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:695
 #: includes/export/class-wc-product-csv-exporter.php:120
 msgid "Low stock amount"
 msgstr "Số lượng tồn kho ít"
@@ -2628,7 +2628,7 @@ msgid "Shipping %d"
 msgstr "Giao hàng %d"
 
 #. translators: 1: Link to tax rates sample file 2: Closing link.
-#: includes/admin/importers/class-wc-tax-rate-importer.php:257
+#: includes/admin/importers/class-wc-tax-rate-importer.php:284
 msgid "Your CSV needs to include columns in a specific order. %1$sClick here to download a sample%2$s."
 msgstr "CSV của bạn cần có các cột theo thứ tự đã quy định. %1$sNhấp chuột vào đây để tải ví dụ minh họa%2$s."
 
@@ -4887,11 +4887,11 @@ msgstr "Kích thước chỉ mục dữ liệu"
 msgid "Forcing downloads will keep URLs hidden, but some servers may serve large files unreliably. If supported, %1$s / %2$s can be used to serve downloads instead (server requires %3$s)."
 msgstr "Cố gắng tải về sẽ khiến URL bị ẩn, tuy nhiên một vài máy chủ có thể có các tệp tin lớn không đáng tin cậy. Nếu được hỗ trợ, %1$s / %2$s có thể được tải xuống (máy chủ yêu cầu %3$s)."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:391
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:394
 msgid "Upload a new file"
 msgstr "Tải lên file mới"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:387
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:390
 msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
 msgstr "File này rỗng hoặc sử dụng mã code khác UTF-8, vui lòng thử lại với file mới."
 
@@ -4913,8 +4913,8 @@ msgstr "Thông tin đơn hàng được gửi bằng tay tới khách hàng."
 msgid "Choose an action..."
 msgstr "Chọn tác vụ..."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:547
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:746
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:550
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:749
 #: includes/export/class-wc-product-csv-exporter.php:147
 msgid "Position"
 msgstr "Vị trí"
@@ -5619,8 +5619,8 @@ msgstr "Công cụ này cho phép bạn tạo và tải xuống tập tin CSV ch
 msgid "Product Title"
 msgstr "Tiêu đề sản phẩm"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:512
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:676
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:515
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:679
 #: includes/export/class-wc-product-csv-exporter.php:112
 msgid "Short description"
 msgstr "Mô tả ngắn"
@@ -5698,70 +5698,70 @@ msgstr "Ngắt kết nối"
 msgid "Browse Extensions"
 msgstr "Duyệt tiện ích mở rộng"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:509
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:673
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:512
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:676
 #: includes/export/class-wc-product-csv-exporter.php:109
 msgid "Published"
 msgstr "Đã đăng"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:511
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:675
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:514
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:678
 #: includes/export/class-wc-product-csv-exporter.php:111
 msgid "Visibility in catalog"
 msgstr "Hiển thị trong danh mục"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:531
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:743
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:534
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:746
 #: includes/export/class-wc-product-csv-exporter.php:131
 msgid "Allow customer reviews?"
 msgstr "Cho phép đánh giá của khách hàng?"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:538
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:711
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:541
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:714
 #: includes/export/class-wc-product-csv-exporter.php:138
 msgid "Images"
 msgstr "Hình ảnh"
 
 #. translators: %d: Attribute number
 #. translators: %s: attribute number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:559
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:562
 #: includes/export/class-wc-product-csv-exporter.php:636
 msgid "Attribute %d name"
 msgstr "Tên thuộc tính %d"
 
 #. translators: %d: Attribute number
 #. translators: %s: attribute number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:561
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:564
 #: includes/export/class-wc-product-csv-exporter.php:638
 msgid "Attribute %d value(s)"
 msgstr "Giá trị thuộc tính %d"
 
 #. translators: %d: Meta number
 #. translators: %s: meta data name
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:575
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:578
 #: includes/export/class-wc-product-csv-exporter.php:726
 msgid "Meta: %s"
 msgstr "Meta: %s"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:690
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:693
 msgctxt "Quantity in stock"
 msgid "Stock"
 msgstr "Kho"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:717
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:720
 msgid "External product"
 msgstr "Sản phẩm bên ngoài"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:736
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:739
 #: packages/woocommerce-admin/dist/components/index.js:2
 msgid "Attribute name"
 msgstr "Tên thuộc tính"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:737
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:740
 msgid "Attribute value(s)"
 msgstr "Giá trị thuộc tính"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:740
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:743
 msgid "Default attribute"
 msgstr "Thuộc tính mặc định"
 
@@ -5839,7 +5839,7 @@ msgstr "Cập nhật các sản phẩm hiện có"
 msgid "CSV Delimiter"
 msgstr "Dấu phân cách CSV"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:727
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:730
 msgid "Download name"
 msgstr "Tên tải về"
 
@@ -5869,15 +5869,15 @@ msgid "File is empty. Please upload something more substantial. This error could
 msgstr "Tập tin rỗng. Hãy kiểm tra tập tin và thử lại. Lỗi này có thể do chức năng tải tệp tin lên không được bật trong php.ini hoặc biến post_max_size được đặt thấp hơn upload_max_filesize trong tập tin php.ini."
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:324
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:360
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:413
-#: includes/admin/importers/class-wc-tax-rate-importer.php:216
-#: includes/admin/importers/class-wc-tax-rate-importer.php:222
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:363
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:416
+#: includes/admin/importers/class-wc-tax-rate-importer.php:236
+#: includes/admin/importers/class-wc-tax-rate-importer.php:247
 #: includes/import/class-wc-product-csv-importer.php:74
 msgid "Invalid file type. The importer supports CSV and TXT file formats."
 msgstr "Loại tập tin không hợp lệ. Chỉ tập tin CSV và TXT được hỗ trợ."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:367
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:370
 msgid "Please upload or provide the link to a valid CSV file."
 msgstr "Vui lòng tải lên hoặc cung cấp liên kết đến tập CSV hợp lệ."
 
@@ -5903,72 +5903,72 @@ msgstr "Quản lý đăng ký của bạn, nhận thông báo sản phẩm quan 
 msgid "Once connected, your WooCommerce.com purchases will be listed here."
 msgstr "Sau khi kết nối, đơn hàng WooCommerce.com của bạn sẽ được liệt kê ở đây."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:514
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:683
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:517
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:686
 #: includes/export/class-wc-product-csv-exporter.php:114
 msgid "Date sale price starts"
 msgstr "Ngày bắt đầu giảm giá"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:515
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:684
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:518
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:687
 #: includes/export/class-wc-product-csv-exporter.php:115
 msgid "Date sale price ends"
 msgstr "Ngày kết thúc giảm giá"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:520
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:691
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:523
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:694
 #: includes/export/class-wc-product-csv-exporter.php:121
 msgid "Backorders allowed?"
 msgstr "Cho phép đặt trước?"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:540
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:730
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:543
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:733
 #: includes/export/class-wc-product-csv-exporter.php:140
 msgid "Download expiry days"
 msgstr "Ngày hết hạn tải về"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:545
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:719
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:548
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:722
 #: includes/export/class-wc-product-csv-exporter.php:145
 msgid "External URL"
 msgstr "URL ngoài"
 
 #. translators: %d: Attribute number
 #. translators: %s: attribute number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:565
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:568
 #: includes/export/class-wc-product-csv-exporter.php:642
 msgid "Attribute %d global"
 msgstr "Thuộc tính toàn cục  %d"
 
 #. translators: %d: Attribute number
 #. translators: %s: attribute number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:563
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:566
 #: includes/export/class-wc-product-csv-exporter.php:640
 msgid "Attribute %d visible"
 msgstr "Thuộc tính hiển thị %d"
 
 #. translators: %d: Attribute number
 #. translators: %s: attribute number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:567
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:570
 #: includes/export/class-wc-product-csv-exporter.php:680
 msgid "Attribute %d default"
 msgstr "Thuộc tính mặc định %d"
 
 #. translators: %d: Download number
 #. translators: %s: download number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:571
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:574
 #: includes/export/class-wc-product-csv-exporter.php:607
 msgid "Download %d name"
 msgstr "Tên tập tin tải về %d"
 
 #. translators: %d: Download number
 #. translators: %s: download number
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:573
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:576
 #: includes/export/class-wc-product-csv-exporter.php:609
 msgid "Download %d URL"
 msgstr "URL tập tin tải về %d"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:738
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:741
 msgid "Is a global attribute?"
 msgstr "Là một thuộc tính toàn cục?"
 
@@ -5988,7 +5988,7 @@ msgstr "Chọn tập tin CSV từ máy tính của bạn:"
 msgid "Hide advanced options"
 msgstr "Ẩn tùy chọn nâng cao"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:739
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:742
 msgid "Attribute visibility"
 msgstr "Hiển thị thuộc tính"
 
@@ -5996,7 +5996,7 @@ msgstr "Hiển thị thuộc tính"
 msgid "Map to field"
 msgstr "Liên kết tới field"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:728
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:731
 msgid "Download URL"
 msgstr "Địa chỉ URL tải về"
 
@@ -6008,8 +6008,8 @@ msgstr "Hiển thị các tùy chọn nâng cao"
 msgid "Select fields from your CSV file to map against products fields, or to ignore during import."
 msgstr "Chọn các cột tương ứng từ file CSV để gắn với sản phẩm, hoặc bỏ qua trong quá trình nhập."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:510
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:674
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:513
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:677
 #: includes/export/class-wc-product-csv-exporter.php:110
 msgid "Is featured?"
 msgstr "Nhãn nổi bật?"
@@ -6473,9 +6473,9 @@ msgstr "Danh sách taxonomy term được sử dụng để hiển thị sản p
 msgid "Terms in the product visibility taxonomy."
 msgstr "Các term thuộc taxonomy hiển thị sản phẩm."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:179
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:176
 #: includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php:391
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:187
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:181
 #: includes/rest-api/Controllers/Version3/class-wc-rest-settings-controller.php:51
 #: packages/woocommerce-admin/src/API/Notes.php:524
 #: packages/woocommerce-admin/src/API/OnboardingProfile.php:102
@@ -7092,20 +7092,20 @@ msgstr "Đơn hàng không hợp lệ"
 msgid "In order for <strong>database caching</strong> to work with WooCommerce you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
 msgstr "In order for <strong>database caching</strong> to work with WooCommerce you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:277
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:460
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:275
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:451
 msgid "Creating product review failed."
 msgstr "Tạo đánh giá sản phẩm không thành công."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:397
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:400
 msgid "The product review cannot be deleted."
 msgstr "Không thể xóa bài đánh giá sản phẩm."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:366
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:369
 msgid "Invalid product review ID."
 msgstr "ID đánh giá sản phẩm không hợp lệ."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:390
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:393
 msgid "The comment has already been trashed."
 msgstr "Bình luận này đang ở thùng rác."
 
@@ -7113,8 +7113,8 @@ msgstr "Bình luận này đang ở thùng rác."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:404
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:274
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:307
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:240
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:321
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:238
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:319
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:438
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:458
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:501
@@ -7122,7 +7122,7 @@ msgstr "Bình luận này đang ở thùng rác."
 msgid "Invalid resource ID."
 msgstr "Invalid resource ID."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:386
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:389
 msgid "The product review does not support trashing."
 msgstr "The product review does not support trashing."
 
@@ -7132,7 +7132,7 @@ msgstr "The product review does not support trashing."
 msgid "The date the customer was created, as GMT."
 msgstr "Ngày tài khoản khách hàng được tạo, theo GMT."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:328
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:326
 msgid "Updating product review failed."
 msgstr "Updating product review failed."
 
@@ -7628,9 +7628,9 @@ msgstr "Danh sách các ID biến thể."
 msgid "A unique identifier for the setting."
 msgstr "Mã nhận diện duy nhất cho cài đặt."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:532
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:535
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:159
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:872
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:863
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:110
 msgid "The content of the review."
 msgstr "Nội dung đánh giá."
@@ -7719,7 +7719,7 @@ msgid "Limit result set to featured products."
 msgstr "Giới hạn kết quả đến các sản phẩm đặc sắc."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:169
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:843
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:834
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:72
 msgid "The date the review was created, as GMT."
 msgstr "Thời gian đánh giá được tạo, theo GMT."
@@ -8250,8 +8250,8 @@ msgstr "Thêm file"
 #. translators: %s: Weight unit
 #. translators: %s: weight unit
 #. translators: %s: weight
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:524
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:695
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:527
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:698
 #: includes/admin/meta-boxes/views/html-variation-admin.php:274
 #: includes/export/class-wc-product-csv-exporter.php:124
 msgid "Weight (%s)"
@@ -8267,8 +8267,8 @@ msgstr "Giá ưu đãi (%s)"
 msgid "Regular price (%s)"
 msgstr "Giá (%s)"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:544
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:715
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:547
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:718
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:14
 #: includes/export/class-wc-product-csv-exporter.php:142
 msgid "Grouped products"
@@ -8332,7 +8332,7 @@ msgid "Apply to all qualifying items in cart"
 msgstr "Áp dụng cho tất cả các sản phẩm đủ điều kiện trong giỏ hàng"
 
 #. translators: %s: tax rates count
-#: includes/admin/importers/class-wc-tax-rate-importer.php:179
+#: includes/admin/importers/class-wc-tax-rate-importer.php:188
 msgid "Import complete - imported %s tax rates."
 msgstr "Nhập thành công - đã nhập thuế suất %s"
 
@@ -8870,7 +8870,7 @@ msgstr "Unique slug for the resource."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:711
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:612
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:636
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:939
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:930
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:709
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:458
 #: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractTermsRoute.php:49
@@ -8941,7 +8941,7 @@ msgid "ID to reassign posts to."
 msgstr "ID để gán lại tác giả bài viết."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:874
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:947
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:938
 msgid "Limit result set to specific IDs."
 msgstr "Limit result set to specific IDs."
 
@@ -10328,9 +10328,9 @@ msgstr "Bật/Tắt thuộc tính lưu trữ."
 msgid "Image URL."
 msgstr "Đường dẫn hình ảnh."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:542
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:545
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:174
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:880
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:871
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:119
 msgid "Review rating (0 to 5)."
 msgstr "Đánh giá xếp hạng (0 đến 5)."
@@ -10821,29 +10821,29 @@ msgstr "Ngày tạo sản phẩm, thuộc múi giờ của trang web."
 msgid "Shipping class name."
 msgstr "Tên loại hình giao hàng."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:557
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:560
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:189
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:885
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:876
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:125
 msgid "Shows if the reviewer bought the product or not."
 msgstr "Cho biết người đánh giá đã mua sản phẩm hay chưa."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:552
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:555
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:184
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:866
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:857
 msgid "Reviewer email."
 msgstr "Email của người đánh giá."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:547
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:550
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:179
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:861
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:852
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:104
 msgid "Reviewer name."
 msgstr "Tên người đánh giá."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:537
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:540
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:164
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:837
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:828
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductReviewSchema.php:59
 msgid "The date the review was created, in the site's timezone."
 msgstr "Ngày tạo đánh giá, thuộc múi giờ của trang web."
@@ -11861,7 +11861,7 @@ msgstr "ID tài nguyên không hợp lệ để chỉ định lại."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:487
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-categories-v1-controller.php:174
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:92
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:526
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:529
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-shipping-classes-v1-controller.php:94
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-tags-v1-controller.php:94
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:77
@@ -11896,7 +11896,7 @@ msgstr "ID tài nguyên không hợp lệ để chỉ định lại."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php:122
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php:103
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:84
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:831
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:822
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:423
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:741
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:80
@@ -12477,7 +12477,7 @@ msgstr "Tên loại vận chuyển"
 msgid "Zone name"
 msgstr "Tên vùng"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:724
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:727
 #: includes/admin/settings/class-wc-settings-advanced.php:256
 #: includes/admin/views/html-admin-page-product-export.php:40
 #: includes/class-wc-query.php:140 includes/wc-account-functions.php:101
@@ -12573,8 +12573,8 @@ msgstr "Thêm mới"
 msgid "Stock quantity"
 msgstr "Số lượng trong kho"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:516
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:687
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:519
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:690
 #: includes/admin/meta-boxes/views/html-product-data-general.php:161
 #: includes/admin/views/html-bulk-edit-product.php:70
 #: includes/admin/views/html-quick-edit-product.php:49
@@ -12592,7 +12592,7 @@ msgstr "Tìm hiểu thêm về các đơn hàng"
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:166
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:152
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:179
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:150
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:148
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:153
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhook-deliveries-v1-controller.php:105
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:159
@@ -12602,7 +12602,7 @@ msgstr "Tìm hiểu thêm về các đơn hàng"
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:56
 #: includes/rest-api/Controllers/Version3/class-wc-rest-data-controller.php:75
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:87
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:156
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:153
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:180
 #: packages/woocommerce-admin/src/API/ProductAttributeTerms.php:65
 msgid "Sorry, you cannot view this resource."
@@ -12716,7 +12716,7 @@ msgstr "Sử dụng tham số Truy vấn WP để sửa đổi phản hồi; cá
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:742
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:643
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:667
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:968
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:959
 #: packages/woocommerce-admin/src/API/Notes.php:660
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:255
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:261
@@ -12744,7 +12744,7 @@ msgstr "Sắp xếp gom hàng theo thuộc tính đối tượng."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:735
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:636
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:660
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:959
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:950
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:733
 #: packages/woocommerce-admin/src/API/Notes.php:653
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:248
@@ -12783,7 +12783,7 @@ msgstr "Giới hạn kết quả trong phạm vi các id cụ thể."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:729
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:630
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:654
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:955
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:946
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:476
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductReviews.php:176
 #: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:181
@@ -12815,7 +12815,7 @@ msgstr "Giới hạn câu trả lời trong phạm vi các tài nguyên được
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:699
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:582
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:624
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:929
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:920
 #: packages/woocommerce-admin/src/API/Leaderboards.php:464
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:236
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:242
@@ -12911,12 +12911,12 @@ msgstr "Rất tiếc, bạn không được phép sửa tài nguyên này."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:150
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:136
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:165
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:162
 #: includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php:111
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:139
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:145
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:71
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:170
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:167
 #: includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zones-controller-base.php:83
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:161
 #: packages/woocommerce-admin/src/API/OnboardingTasks.php:233
@@ -13002,8 +13002,8 @@ msgstr "Diễn đàn cộng đồng"
 msgid "Bank transfer (BACS) payments"
 msgstr "Thanh toán chuyển khoản ngân hàng (BACS)"
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:193
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:204
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:190
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:195
 msgid "Sorry, you cannot delete this resource."
 msgstr "Xin lỗi, bạn không thể xóa tài nguyên này."
 
@@ -13056,7 +13056,7 @@ msgstr "Mã ưu đãi là một cách tuyệt vời để khuyến mãi và ph�
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:204
 #: includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php:68
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:134
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:218
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:209
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:237
 msgid "Sorry, you are not allowed to batch manipulate this resource."
 msgstr "Sorry, you are not allowed to batch manipulate this resource."
@@ -13180,13 +13180,14 @@ msgstr "(bao gồm %s)"
 msgid "Failed order"
 msgstr "Đơn hàng không thành công"
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:209
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:234
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:260
-#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:315
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:380
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:540
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1058
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:207
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:232
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:258
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:313
+#: includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php:364
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:371
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:531
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php:1049
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductsById.php:59
 msgid "Invalid product ID."
 msgstr "Invalid product ID."
@@ -17045,8 +17046,8 @@ msgstr "L/W/H"
 #. translators: %s: Length unit
 #. translators: %s: dimension unit
 #. translators: %s: length
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:526
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:700
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:529
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:703
 #: includes/admin/views/html-bulk-edit-product.php:158
 #: includes/export/class-wc-product-csv-exporter.php:126
 msgid "Length (%s)"
@@ -17055,8 +17056,8 @@ msgstr "Độ dài (%s)"
 #. translators: %s: Width unit
 #. translators: %s: dimension unit
 #. translators: %s: width
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:528
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:702
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:531
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:705
 #: includes/admin/views/html-bulk-edit-product.php:159
 #: includes/export/class-wc-product-csv-exporter.php:128
 msgid "Width (%s)"
@@ -17065,8 +17066,8 @@ msgstr "Độ rộng (%s)"
 #. translators: %s: Height unit
 #. translators: %s: dimension unit
 #. translators: %s: Height
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:530
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:704
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:533
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:707
 #: includes/admin/views/html-bulk-edit-product.php:160
 #: includes/export/class-wc-product-csv-exporter.php:130
 msgid "Height (%s)"
@@ -17082,8 +17083,8 @@ msgstr "Mức độ hiển thị"
 msgid "Catalog &amp; search"
 msgstr "Tìm kiếm &amp; catalog"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:518
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:689
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:521
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:692
 #: includes/admin/views/html-bulk-edit-product.php:218
 #: includes/admin/views/html-quick-edit-product.php:174
 #: includes/export/class-wc-product-csv-exporter.php:118
@@ -17748,8 +17749,8 @@ msgstr "Tên của giao diện cha."
 msgid "Refund amount must be positive."
 msgstr "Số tiền hoàn trả phải lớn hơn 0."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:522
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:693
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:525
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:696
 #: includes/admin/views/html-bulk-edit-product.php:293
 #: includes/export/class-wc-product-csv-exporter.php:122
 msgid "Sold individually?"
@@ -18075,8 +18076,8 @@ msgstr "Giao hàng tới tất cả các quốc gia"
 msgid "Ship to specific countries only"
 msgstr "Chỉ giao hàng tới một số quốc gia cụ thể"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:505
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:669
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:508
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:672
 #: includes/export/class-wc-product-csv-exporter.php:105
 msgid "ID"
 msgstr "ID"
@@ -18796,7 +18797,7 @@ msgstr "Trọng lượng"
 msgid "Weight in decimal form"
 msgstr "Trọng lượng dưới dạng số thập phân"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:697
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:700
 #: includes/wc-template-functions.php:3447
 msgid "Dimensions"
 msgstr "Kích thước"
@@ -19419,8 +19420,8 @@ msgstr "Không có sản phẩm được tìm thấy trong phạm vi này"
 msgid "Sales amount"
 msgstr "Tiền doanh số"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:541
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:712
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:544
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:715
 #: includes/admin/reports/class-wc-report-stock.php:174
 #: includes/export/class-wc-product-csv-exporter.php:141
 msgid "Parent"
@@ -19481,15 +19482,15 @@ msgstr "Bán riêng"
 msgid "Save attributes"
 msgstr "Lưu thuộc tính"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:543
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:714
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:546
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:717
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:48
 #: includes/export/class-wc-product-csv-exporter.php:144
 msgid "Cross-sells"
 msgstr "Bán chéo"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:532
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:744
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:535
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:747
 #: includes/admin/meta-boxes/views/html-product-data-advanced.php:14
 #: includes/export/class-wc-product-csv-exporter.php:132
 msgid "Purchase note"
@@ -19581,8 +19582,8 @@ msgstr "Không thể sử dụng tập tin tải về %s vì nó không tồn t�
 msgid "Downloadable products"
 msgstr "Sản phẩm có thể tải xuống"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:517
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:688
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:520
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:691
 #: includes/admin/meta-boxes/views/html-order-items.php:441
 #: includes/admin/meta-boxes/views/html-product-data-general.php:176
 #: includes/admin/meta-boxes/views/html-variation-admin.php:357
@@ -19593,8 +19594,8 @@ msgstr "Sản phẩm có thể tải xuống"
 msgid "Tax class"
 msgstr "Lớp thuế"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:533
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:682
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:536
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:685
 #: includes/admin/meta-boxes/views/html-product-data-general.php:55
 #: includes/admin/views/html-quick-edit-product.php:41
 #: includes/export/class-wc-product-csv-exporter.php:133
@@ -19603,16 +19604,16 @@ msgstr "Lớp thuế"
 msgid "Sale price"
 msgstr "Giá khuyến mãi"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:534
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:681
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:537
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:684
 #: includes/admin/meta-boxes/views/html-product-data-general.php:45
 #: includes/admin/views/html-quick-edit-product.php:34
 #: includes/export/class-wc-product-csv-exporter.php:134
 msgid "Regular price"
 msgstr "Giá bán thường"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:537
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:710
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:540
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:713
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:57
 #: includes/admin/meta-boxes/views/html-variation-admin.php:335
 #: includes/admin/settings/class-wc-settings-shipping.php:396
@@ -19623,8 +19624,8 @@ msgstr "Giá bán thường"
 msgid "Shipping class"
 msgstr "Lớp giao hàng"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:539
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:729
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:542
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:732
 #: includes/admin/meta-boxes/views/html-product-data-general.php:124
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:87
 #: includes/admin/meta-boxes/views/html-variation-admin.php:443
@@ -19805,8 +19806,8 @@ msgstr "Chọn mã ưu đãi&hellip;"
 msgid "All coupons"
 msgstr "Tất cả mã ưu đãi"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:542
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:713
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:545
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:716
 #: includes/admin/meta-boxes/views/html-product-data-linked-products.php:32
 #: includes/export/class-wc-product-csv-exporter.php:143
 msgid "Upsells"
@@ -20213,47 +20214,47 @@ msgstr "Cảm ơn bạn :)"
 msgid "Thank you for selling with WooCommerce."
 msgstr "Cảm ơn bạn đã bán hàng với WooCommerce."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:419
-#: includes/admin/importers/class-wc-tax-rate-importer.php:130
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:422
+#: includes/admin/importers/class-wc-tax-rate-importer.php:139
 msgid "The file does not exist, please try again."
 msgstr "Tập tin không tồn tại, xin vui lòng thử lại."
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:191
+#: includes/admin/importers/class-wc-tax-rate-importer.php:200
 msgid "All done!"
 msgstr "Hoàn tất!"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:254
+#: includes/admin/importers/class-wc-tax-rate-importer.php:281
 msgid "Hi there! Upload a CSV file containing tax rates to import the contents into your shop. Choose a .csv file to upload, then click \"Upload file and import\"."
 msgstr "Xin chào! Hãy tải lên một tập tin CSV có chứa các mức thuế để nhập nội dung vào cửa hàng của bạn. Chọn tệp .csv để tải lên, sau đó kích vào \"Tải lên và nhập vào\"."
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:267
+#: includes/admin/importers/class-wc-tax-rate-importer.php:294
 #: includes/admin/importers/views/html-product-csv-import-form.php:31
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Trước khi bạn có thể tải lên các tập tin được nhập vào, bạn sẽ cần phải sửa các lỗi sau đây:"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:276
+#: includes/admin/importers/class-wc-tax-rate-importer.php:303
 msgid "Choose a file from your computer:"
 msgstr "Chọn một tập tin từ máy tính của bạn:"
 
 #. translators: %s: maximum upload size
-#: includes/admin/importers/class-wc-tax-rate-importer.php:286
+#: includes/admin/importers/class-wc-tax-rate-importer.php:313
 #: includes/admin/importers/views/html-product-csv-import-form.php:45
 msgid "Maximum size: %s"
 msgstr "Kích thước tối đa: %s"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:295
+#: includes/admin/importers/class-wc-tax-rate-importer.php:322
 msgid "OR enter path to file:"
 msgstr "Hoặc nhập đường dẫn của tập tin:"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:302
+#: includes/admin/importers/class-wc-tax-rate-importer.php:329
 msgid "Delimiter"
 msgstr "Dấu phân cách"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:308
+#: includes/admin/importers/class-wc-tax-rate-importer.php:335
 msgid "Upload file and import"
 msgstr "Tải lên và nhập"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:323
+#: includes/admin/importers/class-wc-tax-rate-importer.php:350
 msgid "Sorry, there has been an error."
 msgstr "Rất tiếc, đã có lỗi."
 
@@ -20541,8 +20542,8 @@ msgstr "URL sản phẩm"
 msgid "Enter the external URL to the product."
 msgstr "Nhập URL bên ngoài cho sản phẩm."
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:546
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:720
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:549
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:723
 #: includes/admin/meta-boxes/views/html-product-data-general.php:29
 #: includes/export/class-wc-product-csv-exporter.php:146
 msgid "Button text"
@@ -20697,15 +20698,15 @@ msgstr "Webhook được tạo thành công."
 msgid "Search webhooks"
 msgstr "Tìm Webhook"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:169
+#: includes/admin/importers/class-wc-tax-rate-importer.php:178
 msgid "The CSV is invalid."
 msgstr "CSV không hợp lệ."
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:191
+#: includes/admin/importers/class-wc-tax-rate-importer.php:200
 msgid "View tax rates"
 msgstr "Xem các mức thuế"
 
-#: includes/admin/importers/class-wc-tax-rate-importer.php:238
+#: includes/admin/importers/class-wc-tax-rate-importer.php:265
 msgid "Import tax rates"
 msgstr "Nhập các mức thuế"
 
@@ -21091,8 +21092,8 @@ msgstr "Bản nháp đơn hàng đã được cập nhật."
 msgid "Image"
 msgstr "Ảnh"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:507
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:671
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:510
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:674
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:120
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:21
 #: includes/admin/meta-boxes/views/html-variation-admin.php:79
@@ -21109,7 +21110,7 @@ msgid "SKU"
 msgstr "Mã sản phẩm"
 
 #: includes/admin/class-wc-admin-reports.php:99
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:519
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:522
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:124
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:74
 #: includes/export/class-wc-product-csv-exporter.php:119
@@ -21127,7 +21128,7 @@ msgstr "Mã sản phẩm"
 msgid "Stock"
 msgstr "Kho"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:679
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:682
 #: includes/admin/importers/mappings/generic.php:23
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:127
 #: includes/admin/views/html-bulk-edit-product.php:21
@@ -21144,8 +21145,8 @@ msgstr "Kho"
 msgid "Price"
 msgstr "Giá"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:535
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:707
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:538
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:710
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:128
 #: includes/admin/reports/class-wc-report-sales-by-category.php:199
 #: includes/class-wc-post-types.php:93
@@ -21158,7 +21159,7 @@ msgstr "Giá"
 msgid "Categories"
 msgstr "Danh mục"
 
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:536
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:539
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:129
 #: includes/export/class-wc-product-csv-exporter.php:136
 msgid "Tags"
@@ -22036,8 +22037,8 @@ msgid "Product Tag"
 msgstr "Thẻ sản phẩm"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:48
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:513
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:677
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:516
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:680
 #: includes/admin/list-tables/class-wc-admin-list-table-coupons.php:85
 #: includes/admin/meta-boxes/views/html-variation-admin.php:385
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:122
@@ -22305,8 +22306,8 @@ msgstr "Nhấn để chuyển chế độ"
 #: includes/admin/class-wc-admin-attributes.php:393
 #: includes/admin/class-wc-admin-attributes.php:446
 #: includes/admin/class-wc-admin-webhooks-table-list.php:48
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:508
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:672
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:511
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:675
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:117
 #: includes/admin/meta-boxes/views/html-product-attribute.php:18
 #: includes/admin/meta-boxes/views/html-product-data-general.php:84
@@ -22437,8 +22438,8 @@ msgstr "Kích hoạt tính năng này nếu bạn muốn thuộc tính này có 
 #: includes/admin/class-wc-admin-attributes.php:243
 #: includes/admin/class-wc-admin-attributes.php:311
 #: includes/admin/class-wc-admin-attributes.php:421
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:506
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:670
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:509
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:673
 #: includes/export/class-wc-product-csv-exporter.php:106
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:304
 #: packages/woocommerce-admin/dist/chunks/analytics-report-coupons.js:1
@@ -22487,7 +22488,7 @@ msgid "Update"
 msgstr "Cập nhật"
 
 #: includes/admin/class-wc-admin-menus.php:66
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:734
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:737
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:111
 #: includes/admin/views/html-admin-page-product-export.php:41
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:284
