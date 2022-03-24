@@ -1,0 +1,37 @@
+2022-03-23T04:15:07+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\xampp\htdocs\asianfan\wp-content\plugins\advance-wp-query-search-filter\advance-wp-sf2.php:201
+Stack trace:
+#0 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(307): awqsf->awqsf_save_data('')
+#1 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\asianfan\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\asianfan\wp-admin\admin.php(175): do_action('admin_init')
+#4 C:\xampp\htdocs\asianfan\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\asianfan\wp-content\plugins\advance-wp-query-search-filter\advance-wp-sf2.php on line 201
+
+2022-03-23T04:57:48+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php:129
+Stack trace:
+#0 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(307): ulitmatewpsf->uwpqsf_save_from('')
+#1 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\asianfan\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\asianfan\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php on line 129
+
+2022-03-23T15:19:07+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php:129
+Stack trace:
+#0 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(307): ulitmatewpsf->uwpqsf_save_from('')
+#1 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\asianfan\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\asianfan\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php on line 129
+
+2022-03-23T15:20:46+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php:129
+Stack trace:
+#0 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(307): ulitmatewpsf->uwpqsf_save_from('')
+#1 C:\xampp\htdocs\asianfan\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\asianfan\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\asianfan\wp-admin\admin.php(175): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\asianfan\wp-content\plugins\ultimate-wp-query-search-filter\ultimate-wpqsf.php on line 129
+
